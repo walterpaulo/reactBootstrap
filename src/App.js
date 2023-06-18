@@ -1,14 +1,15 @@
 import './App.css';
 import Menu from './Componentes/Menu';
-import Rodape from './Componentes/rodape';
-import Header from './Componentes/Header'
+import Rodape from './Componentes/Rodape';
+import Header from './Componentes/Header';
+
 
 function App() {
   return (
     <div>
-      <Menu/>
-      <Header/>
-      <Rodape/>
+      <Menu />
+      <Header />
+      <Rodape />
     </div>
      );
 }
